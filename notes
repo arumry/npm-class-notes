@@ -1,0 +1,47 @@
+New Node Package
+
+1. Create directory
+2. npm init -> Create package.json
+3. Create start file (index.js)
+4. Create "lib" and "test" folders
+5. Create .gitignore file -> 'touch .gitignore' (https://github.com/github/gitignore)
+
+
+Node Project
+1. Clone or Create(steps above)
+2. 'npm install'
+
+
+NPM Homework
+
+npm init
+npm search partialPackageName
+npm install (npm i) --save --save-dev
+npm install -g
+npm update --save --save-dev
+npm uninstall (remove) --save --save-dev
+npm link (develop packages locally, inside package directory) 
+npm link packageName (install linked package outside of development directory) 
+npm publish (publish to npmjs)
+
+**Advanced Mode
+npm add-user
+npm outdated
+npm start / stop (setup in package.json)
+
+package.json
+{
+	"dependencies": {
+		"lodash": "^0.0.1" vs "~0.0.1" vs "0.0.1"
+	}	
+}
+
+
+Require Hints
+require('lodash') [npm installed]
+require('./lib') [lib/index.js]
+require('./lib/hello') [lib/hello.js]
+
+Inside of Directory: [test/index.js]
+require('../') [index.js]
+require('../lib/hello') [lib/hello.js]

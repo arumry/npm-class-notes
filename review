@@ -1,0 +1,27 @@
+Review Questions
+
+1. What is a web server?
+2. How does HTTP work?
+3. What is REST?
+4. When to use GET, POST, PUT, DELETE? HEAD, OPTIONS?
+5. What is the difference between Syncronous and Asyncronous I/O?
+6. Telnet
+7. CURL
+
+Bonus: 
+** Say we have a Restful resource that describes books, which restful url is better suited to describe that? Discuss the different options.
+
+* Option A
+[GET] 		/v1/books/all
+[GET] 		/v1/books/:id
+[POST] 		/v1/books/create
+[PUT] 		/v1/books/:id/update
+[DELETE] 	/v1/books/:id/delete
+
+
+* Option B
+[GET] 		/v1/books
+[POST] 		/v1/books
+[GET] 		/v1/books/:id
+[PUT] 		/v1/books/:id
+[DELETE] 	/v1/books/:id

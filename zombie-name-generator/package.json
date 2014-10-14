@@ -1,0 +1,23 @@
+{
+  "name": "zombie-name-generator",
+  "version": "1.0.0",
+  "description": "Create a zombie name from a human name",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "name",
+    "generator"
+  ],
+  "author": "Tyler",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.5"
+  }
+}
