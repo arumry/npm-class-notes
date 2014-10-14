@@ -39,6 +39,8 @@ package.json
 
 Require Hints
 require('lodash') [npm installed]
+
+Inside of the project, require() to access module.exports
 require('./lib') [lib/index.js]
 require('./lib/hello') [lib/hello.js]
 
